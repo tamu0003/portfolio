@@ -108,3 +108,17 @@ input, textarea{
     background-color: #A3CB33;
     color: #9810FA;
 }
+
+/* contact page */
+.snsinfo{
+    background-color: #272727;
+}
+.white, .snsicons{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.snsicons i{
+    font-size: 3rem;
+    padding-left: 20px;
+}
