@@ -4,13 +4,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/76e588cc94.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
-    <title>Haru no portfolio-Contact</title>
+    <title>Haru no portfolio-Home</title>
 </head>
 <body>
-    
-
+   <div class="wrapper">
+    <header role="banner">
+        <div class="title">HARU no PORTFOLIO</div>
+        <ul class="nav nav-tabs justify-content-end m-3 pb-2" role="navigation">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="work.html">WORKS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">CONTACT</a>
+              </li>
+          </ul>
+            <picture>
+                <source class="img-fluid" srcset="imgs/contact-1440.png" media="(min-width: 1440px)">
+                <source class="w-100" srcset="imgs/contact-960.png" media="(min-width: 960px)">
+                <img class="w-100" src="imgs/contacts.png" alt=”home”>
+            </picture>
+    </header>
+    <main role="main"> 
+        <!-- contact section -->
+        <section class="contactform" role="complementary">
+            <h2 class="text-center mt-4">Send Me a Message!!</h2>
+            <div class="mb-3 w-75 m-auto">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control w-75 m-auto" id="name">
+              </div>
+              <div class="mb-3 w-75 m-auto">
+                <label for="mail" class="form-label w-75 m-auto">Email</label>
+                <input type="email" class="form-control w-75 m-auto" id="mail">
+              </div>
+              <div class="mb-3 w-75 m-auto">
+                <label for="comment" class="form-label">Comment</label>
+                <textarea class="form-control w-75 m-auto" id="comment" rows="5"></textarea>
+              </div>
+            <div class="d-flex justify-content-center mb-3">
+                <input class="btn" type="submit" value="Send">
+            </div>
+        </section>
+        <!-- sns info section -->
+        <section class="snsinfo" role="complementary">
+            
+        </section>
+    </main>
+    <!-- footer -->
+    <footer role="contentinfo">
+        <div class="d-flex mb-3 pt-4">
+            <P class="title me-auto p-2">HARU no PORTFOLIO</P>
+            <i class="fa-brands fa-instagram p-2"></i>
+            <i class="fa-brands fa-square-pinterest p-2 mx-3"></i>
+        </div>
+        <p class="copy">&copy;HARU no PORTFOLIO</p>
+    </footer>
+   </div>
 
     <!-- java code -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>

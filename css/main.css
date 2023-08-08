@@ -24,7 +24,7 @@ header{
    font-size: 1.3rem;
 }
 .nav-link{
-    color: #F24405 !important;
+    color: #F24405;
 }
 
 /* footer styling */
@@ -82,8 +82,29 @@ footer div i{
 
 
 /* About page */
-.profile, .skill, .project{
+.profile, .skill, .project, .contactform{
     background-color: #D5D5D5;
     border: solid 3px black;
     margin: 5px;
+}
+
+/* Contact page */
+label{
+    color: #F24405;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.5rem;
+}
+input, textarea{
+    border: solid 3px black !important;
+}
+
+.btn{
+    color: #9810FA;
+    background-color: white;
+    border: solid 2px black;
+    box-shadow: 4px 4px black;
+}
+.btn:hover{
+    background-color: #A3CB33;
+    color: #9810FA;
 }
