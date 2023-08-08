@@ -42,6 +42,9 @@ footer div i{
     color: aliceblue;
     text-align: end;
 }
+
+
+/* Home page */
 /* welcome section */
 .welcome{
     background-color: #D5D5D5;
@@ -75,3 +78,11 @@ footer div i{
   .gallery{
     background-color: #D5D5D5;
   }
+
+
+/* About page */
+.profile{
+    background-color: #D5D5D5;
+    border: solid 3px black;
+    margin: 5px;
+}
