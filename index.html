@@ -20,7 +20,7 @@
         <!-- Header > styling with flexbox -->
         <header role="banner">
             <div class="title">HARU no PORTFOLIO</div>
-            <ul class="nav nav-underline justify-content-end m-3" role="navigation">
+            <ul class="nav nav-tabs justify-content-end m-3 pb-2" role="navigation">
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
                 </li>
@@ -34,19 +34,21 @@
                     <a class="nav-link" href="contact.html">CONTACT</a>
                   </li>
               </ul>
-            <picture>
-                <source srcset="imgs/home-1440.png" media="(min-width: 1440px)">
-                <source srcset="imgs/home-960.png" media="(min-width: 960px)">
-                <img src="imgs/homes.png" alt=”home”>
-            </picture>
         </header>
+        <picture>
+            <source srcset="imgs/home-1440.png" media="(min-width: 1440px)"sizes="100vw">
+            <source srcset="imgs/home-960.png" media="(min-width: 960px)" sizes="100vw">
+            <img src="imgs/homes.png" alt=”home”>
+        </picture>
         <main role="main">
             <!-- welcome section -->
             <section class="welcome" role="complementary">
-                <h2 role="heading">Welcome to My Portfolio Site</h2>
-                <p>On this site, you will find the work of Haru, who is studying media design at Algonquin College. The main focus of the site is videography and editing, digital graphic works, and illustrations. She has respect for Japanese anime and manga culture. She tries to create unique works so that she can be an advertising designer who can convey the excellence of her works beyond borders!</p>
-                <!-- skip button -->
-                <a class="skipbutton" href="contact.html">CONTACT</a>
+                <div class="d-flex flex-column mb-3 text-center mx-5">
+                    <h2 class="p-2" role="heading">Welcome to My Portfolio Site</h2>
+                    <p class="p-2">On this site, you will find the work of Haru, who is studying media design at Algonquin College. The main focus of the site is videography and editing, digital graphic works, and illustrations. She has respect for Japanese anime and manga culture. She tries to create unique works so that she can be an advertising designer who can convey the excellence of her works beyond borders!</p>
+                    <!-- skip button -->
+                    <a class="skipbutton p-2" href="contact.html">CONTACT</a>
+                </div>
             </section>
         <!-- gallery section styling with grid -->
             <section class="gallery" role="complementary">

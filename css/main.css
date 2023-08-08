@@ -1,2 +1,36 @@
-font-family: 'Barlow Condensed', sans-serif;
+/* jeneral styling */
+.wrapper{
+    margin: 0 auto;
+}
+h1,h2,h3{
 font-family: 'Teko', sans-serif;
+font-size: 2rem;
+}
+p{
+    font-family: 'Barlow Condensed', sans-serif;
+}
+a{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.5rem !important;
+}
+
+/* header styling */
+header{
+    background-color: #132B8D;
+}
+.title{
+    color: azure;
+   padding: 20px;
+   font-size: 1.3rem;
+}
+.nav-link{
+    color: #F24405 !important;
+}
+
+/* welcome section */
+.skipbutton{
+    text-decoration: none;
+    color: #9810FA;
+    background-color: white;
+    border: solid 2px black;
+}
