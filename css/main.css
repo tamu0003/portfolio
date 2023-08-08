@@ -27,10 +27,37 @@ header{
     color: #F24405 !important;
 }
 
+/* footer styling */
+footer{
+    background-color: #132B8D;
+    height: 150px;
+    margin-top: 10px;
+}
+footer div i{
+    color: aliceblue;
+    font-size: 1.8rem;
+}
+.copy{
+    margin-right: 20px;
+    color: aliceblue;
+    text-align: end;
+}
 /* welcome section */
+.welcome{
+    background-color: #D5D5D5;
+    border: solid 3px black;
+    margin: 10px;
+}
 .skipbutton{
     text-decoration: none;
     color: #9810FA;
     background-color: white;
     border: solid 2px black;
+    box-shadow: 4px 4px black;
+    display:block;
+    width:150px;
+    margin:0 auto;
+}
+.skipbutton:hover{
+    background-color: #A3CB33;
 }
