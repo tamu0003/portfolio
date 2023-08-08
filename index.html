@@ -34,12 +34,12 @@
                     <a class="nav-link" href="contact.html">CONTACT</a>
                   </li>
               </ul>
+                <picture>
+                    <source class="w-100" srcset="imgs/home-1440.png" media="(min-width: 1440px)">
+                    <source class="w-100" srcset="imgs/home-960.png" media="(min-width: 960px)">
+                    <img class="w-100" src="imgs/homes.png" alt=”home”>
+                </picture>
         </header>
-        <picture>
-            <source srcset="imgs/home-1440.png" media="(min-width: 1440px)"sizes="100vw">
-            <source srcset="imgs/home-960.png" media="(min-width: 960px)" sizes="100vw">
-            <img src="imgs/homes.png" alt=”home”>
-        </picture>
         <main role="main">
             <!-- welcome section -->
             <section class="welcome" role="complementary">
@@ -47,47 +47,47 @@
                     <h2 class="p-2" role="heading">Welcome to My Portfolio Site</h2>
                     <p class="p-2">On this site, you will find the work of Haru, who is studying media design at Algonquin College. The main focus of the site is videography and editing, digital graphic works, and illustrations. She has respect for Japanese anime and manga culture. She tries to create unique works so that she can be an advertising designer who can convey the excellence of her works beyond borders!</p>
                     <!-- skip button -->
-                    <a class="skipbutton p-2 mb-3" href="contact.html">CONTACT</a>
+                    <a class="skipbutton p-2" href="contact.html">CONTACT</a>
                 </div>
             </section>
         <!-- gallery section styling with grid -->
-            <section class="gallery" role="complementary">
-                <div class="ghcontainer">
-                    <img class="gbg" src="imgs/bgl.png" alt="backhround">
-                    <h2 class="gheader" role="heading">My Works Gallery</h2>
+            <section class="gallery d-flex flex-column text-center" role="complementary">
+                <div class="subcontainer">
+                    <img class="gbg w-100" src="imgs/bgl.png" alt="backhround">
+                    <h2 class="subheader text-white" role="heading">My Works Gallery</h2>
                 </div>
                 <!-- digital graphic -->
                 <div class="subcontainer">
-                    <img class="subgb" src="imgs/smbgw-960.png" alt="sub backhround">
+                    <img class="subgb w-100" src="imgs/smbgw-960.png" alt="sub backhround">
                     <h2 class="subheader" role="heading">Digital Graphic</h2>
                 </div>
                 <picture>
-                    <source srcset="imgs/overdrivel.png" media="(min-width: 1440px)">
-                    <source srcset="imgs/overdrivem.png" media="(min-width: 960px)">
-                    <img src="imgs/overdrives.png" alt=”overdrive”>
+                    <source class="subgb w-100" srcset="imgs/overdrivel.png" media="(min-width: 1440px)">
+                    <source class="subgb w-100" srcset="imgs/overdrivem.png" media="(min-width: 960px)">
+                    <img class="subgb w-100" src="imgs/overdrives.png" alt=”overdrive”>
                 </picture>
                 <!-- video -->
                 <div class="subcontainer">
-                    <img class="subgb" src="imgs/smbgw-960.png" alt="sub backhround">
+                    <img class="subgb w-100" src="imgs/smbgw-960.png" alt="sub backhround">
                     <h2 class="subheader" role="heading">Video</h2>
                 </div>
                 <picture>
-                    <source srcset="imgs/videocl.png" media="(min-width: 1440px)">
-                    <source srcset="imgs/videocm.png" media="(min-width: 960px)">
-                    <img src="imgs/videocs.png" alt=”sunset”>
+                    <source class="subgb w-100" srcset="imgs/videocl.png" media="(min-width: 1440px)">
+                    <source class="subgb w-100" srcset="imgs/videocm.png" media="(min-width: 960px)">
+                    <img class="subgb w-100" src="imgs/videocs.png" alt=”sunset”>
                 </picture>
                 <!-- illustration -->
                 <div class="subcontainer">
-                    <img class="subgb" src="imgs/smbgw-960.png" alt="sub backhround">
+                    <img class="subgb w-100" src="imgs/smbgw-960.png" alt="sub backhround">
                     <h2 class="subheader" role="heading">Illustration</h2>
                 </div>
-                <picture>
-                    <source srcset="imgs/hddl.png" media="(min-width: 1440px)">
-                    <source srcset="imgs/hddm.png" media="(min-width: 960px)">
-                    <img src="imgs/hdds.png" alt=”overdrive”>
+                <picture class="mb-2">
+                    <source class="subgb w-100" srcset="imgs/hddl.png" media="(min-width: 1440px)">
+                    <source class="subgb w-100" srcset="imgs/hddm.png" media="(min-width: 960px)">
+                    <img class="subgb w-100" src="imgs/hdds.png" alt=”overdrive”>
                 </picture>
                 <!-- skip button -->
-                <a class="skipbutton" href="work.html">WORKS</a>
+                <a class="skipbutton p-2" href="work.html">WORKS</a>
             </section>
         </main>
         <!-- footer -->

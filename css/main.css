@@ -46,7 +46,7 @@ footer div i{
 .welcome{
     background-color: #D5D5D5;
     border: solid 3px black;
-    margin: 10px;
+    margin: 5px;
 }
 .skipbutton{
     text-decoration: none;
@@ -61,3 +61,17 @@ footer div i{
 .skipbutton:hover{
     background-color: #A3CB33;
 }
+
+/* gallery section */
+.subcontainer{
+    position: relative;
+  }
+  .subheader{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .gallery{
+    background-color: #D5D5D5;
+  }
