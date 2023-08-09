@@ -8,10 +8,11 @@ font-size: 2rem;
 }
 p{
     font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.4rem !important;
 }
 a{
     font-family: 'Barlow Condensed', sans-serif;
-    font-size: 1.5rem !important;
+    font-size: 1.6rem !important;
 }
 
 /* header styling */
@@ -80,17 +81,26 @@ footer div i{
     background-color: #D5D5D5;
   }
 
-
 /* About page */
-.profile, .skill, .project, .contactform{
+.profile, .skill, .project, .contactform, .ex{
     background-color: #D5D5D5;
     border: solid 3px black;
     margin: 5px;
 }
 
 /* works page */
-
-
+.c-item{
+    height: 500px;
+}
+.c-img{
+    height: 100%;
+    object-fit: scale-down;
+}
+.c-contena{
+    background-color: #9b9b9b;
+    border: solid 3px black;
+    height: 500px;
+}
 
 /* Contact page */
 label{
