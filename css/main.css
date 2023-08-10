@@ -1,5 +1,9 @@
 /* jeneral styling */
+body{
+    background-color: #e7e7e7;
+}
 .wrapper{
+    max-width: 1000px;
     margin: 0 auto;
 }
 h1,h2,h3{
@@ -135,4 +139,66 @@ input, textarea{
 .snsicons i{
     font-size: 3rem;
     padding-left: 20px;
+}
+
+/* adds media queries < 768 ~ max width> */
+@media screen and (min-width: 768px){
+    wrapper{
+        margin: 0 auto;
+    }
+    h1,h2,h3{
+    font-family: 'Teko', sans-serif;
+    font-size: 3rem;
+    }
+    p{
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 1.6rem !important;
+    }
+    a{
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 1.8rem !important;
+    }
+    .white, .snsicons{
+        color: white;
+        font-size: 1.8rem;
+    }
+    
+    .snsicons i{
+        font-size: 5rem;
+        padding-left: 20px;
+    }
+    footer{
+        height: 200px;
+    }
+}
+
+/* adds media queries < 992 ~ max width> */
+@media screen and (min-width: 992px){
+    .wrapper{
+        margin: 0 auto;
+    }
+    h1,h2,h3{
+    font-family: 'Teko', sans-serif;
+    font-size: 3.5rem;
+    }
+    p{
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 2rem !important;
+    }
+    a{
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 2rem !important;
+    }
+    .white, .snsicons{
+        color: white;
+        font-size: 2rem;
+    }
+    
+    .snsicons i{
+        font-size: 6rem;
+        padding-left: 20px;
+    }
+    footer{
+        height: 200px;
+    }
 }
