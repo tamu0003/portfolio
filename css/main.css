@@ -3,7 +3,7 @@ body{
     background-color: #e7e7e7;
 }
 .wrapper{
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 h1,h2,h3{
@@ -146,10 +146,7 @@ input, textarea{
     wrapper{
         margin: 0 auto;
     }
-    h1,h2,h3{
-    font-family: 'Teko', sans-serif;
-    font-size: 3rem;
-    }
+    
     p{
         font-family: 'Barlow Condensed', sans-serif;
         font-size: 1.6rem !important;
@@ -176,10 +173,6 @@ input, textarea{
 @media screen and (min-width: 992px){
     .wrapper{
         margin: 0 auto;
-    }
-    h1,h2,h3{
-    font-family: 'Teko', sans-serif;
-    font-size: 3.5rem;
     }
     p{
         font-family: 'Barlow Condensed', sans-serif;

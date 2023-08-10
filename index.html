@@ -51,43 +51,53 @@
                 </div>
             </section>
         <!-- gallery section styling with grid -->
-            <section class="gallery d-flex flex-column text-center" role="complementary">
-                <div class="subcontainer">
-                    <img class="gbg w-100" src="imgs/bgl.png" alt="backhround">
-                    <h2 class="subheader text-white" role="heading">My Works Gallery</h2>
+            <section class="gallery container container-fluid text-center" role="complementary">
+                <div class="row">
+                    <div class="subcontainer col">
+                        <img class="gbg w-100" src="imgs/bgl.png" alt="backhround">
+                        <h2 class="subheader text-white" role="heading">My Works Gallery</h2>
+                    </div>
                 </div>
-                <!-- digital graphic -->
-                <div class="subcontainer">
-                    <img class="subgb w-75 my-2" src="imgs/smbgw-960.png" alt="sub backhround">
-                    <h2 class="subheader" role="heading">Digital Graphic</h2>
+                    <!-- digital graphic -->
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="subcontainer">
+                            <img class="subgb w-75 my-2" src="imgs/smbgw-960.png" alt="sub backhround">
+                            <h2 class="subheader" role="heading">Digital Graphic</h2>
+                        </div>
+                        <picture>
+                            <source class="subgb imgl" srcset="imgs/overdrivel.png" media="(min-width: 1440px)">
+                            <source class="subgb imgm" srcset="imgs/overdrivem.png" media="(min-width: 960px)">
+                            <img class="subgb" src="imgs/overdrives.png" alt=”overdrive”>
+                        </picture>
+                    </div>
+                    <!-- video -->
+                    <div class="col-lg-4">
+                        <div class="subcontainer">
+                            <img class="subgb w-75 my-2" src="imgs/smbgw-960.png" alt="sub backhround">
+                            <h2 class="subheader" role="heading">Video</h2>
+                        </div>
+                        <picture>
+                            <source class="subgb imgl" srcset="imgs/videocl.png" media="(min-width: 1440px)">
+                            <source class="subgb imgm" srcset="imgs/videocm.png" media="(min-width: 960px)">
+                            <img class="subgb" src="imgs/videocs.png" alt=”sunset”>
+                        </picture>
+                    </div>
+                    <!-- illustration -->
+                    <div class="col-lg-4">
+                        <div class="subcontainer">
+                            <img class="subgb w-75 m-2" src="imgs/smbgw-960.png" alt="sub backhround">
+                            <h2 class="subheader" role="heading">Illustration</h2>
+                        </div>
+                        <picture class="mb-2">
+                            <source class="subgb imgl" srcset="imgs/hddl.png" media="(min-width: 1440px)">
+                            <source class="subgb imgm" srcset="imgs/hddm.png" media="(min-width: 960px)">
+                            <img class="subgb" src="imgs/hdds.png" alt=”overdrive”>
+                        </picture>
+                    </div>
+                    <!-- skip button -->
+                    <a class="skipbutton p-2" href="work.html">WORKS</a>
                 </div>
-                <picture>
-                    <source class="subgb imgl" srcset="imgs/overdrivel.png" media="(min-width: 1440px)">
-                    <source class="subgb imgm" srcset="imgs/overdrivem.png" media="(min-width: 960px)">
-                    <img class="subgb" src="imgs/overdrives.png" alt=”overdrive”>
-                </picture>
-                <!-- video -->
-                <div class="subcontainer">
-                    <img class="subgb w-75 my-2" src="imgs/smbgw-960.png" alt="sub backhround">
-                    <h2 class="subheader" role="heading">Video</h2>
-                </div>
-                <picture>
-                    <source class="subgb imgl" srcset="imgs/videocl.png" media="(min-width: 1440px)">
-                    <source class="subgb imgm" srcset="imgs/videocm.png" media="(min-width: 960px)">
-                    <img class="subgb" src="imgs/videocs.png" alt=”sunset”>
-                </picture>
-                <!-- illustration -->
-                <div class="subcontainer">
-                    <img class="subgb w-75 m-2" src="imgs/smbgw-960.png" alt="sub backhround">
-                    <h2 class="subheader" role="heading">Illustration</h2>
-                </div>
-                <picture class="mb-2">
-                    <source class="subgb imgl" srcset="imgs/hddl.png" media="(min-width: 1440px)">
-                    <source class="subgb imgm" srcset="imgs/hddm.png" media="(min-width: 960px)">
-                    <img class="subgb" src="imgs/hdds.png" alt=”overdrive”>
-                </picture>
-                <!-- skip button -->
-                <a class="skipbutton p-2" href="work.html">WORKS</a>
             </section>
         </main>
         <!-- footer -->
